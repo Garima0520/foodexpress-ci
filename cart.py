@@ -6,6 +6,7 @@ def cart_total(items):
 
     return total
 
+
 # FoodExpress CI test
 def apply_discount(total, percent):
     if percent < 0 or percent > 100:
